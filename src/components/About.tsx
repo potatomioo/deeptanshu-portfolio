@@ -6,14 +6,13 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="about-description">
-              I'm a product-focused engineer passionate about building large-scale applications 
-              that solve real problems. With experience owning complex flows like payment systems 
-              and a deep interest in AR/VR and metaverse technologies, I bring system thinking 
-              and clean architecture to every project.
+              Product-focused engineer with a passion for building systems that scale. 
+              I've owned complex payment flows serving millions, architected mobile platforms, 
+              and explored the frontiers of AR/VR technology.
             </p>
             <p className="about-description">
-              My approach combines technical excellence with product intuition, ensuring that 
-              every solution is not just well-engineered, but truly impactful for users.
+              My superpower? Combining deep technical expertise with product intuition 
+              to create solutions that users love and businesses need.
             </p>
           </div>
           <div className="about-skills">

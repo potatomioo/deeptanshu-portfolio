@@ -3,21 +3,19 @@ const Contact = () => {
     <section id="contact" className="contact-section">
       <div className="container">
         <div className="contact-content">
-          <h2 className="section-title">Let's Build Something Amazing</h2>
+          <h2 className="section-title">Ready to Work Together?</h2>
           <p className="contact-description">
-            Have an idea, project, or opportunity? Let's talk.
+            Available for freelance projects, consulting, and full-time opportunities. 
+            Let's turn your vision into reality.
           </p>
           <div className="contact-buttons">
-            <a href="mailto:deeptanshu@example.com" className="contact-btn email">
-              <span className="btn-icon">✉</span>
+            <a href="mailto:deeptanshushuklaji@gmail.com" className="contact-btn email">
               Email
             </a>
-            <a href="https://linkedin.com/in/deeptanshu" className="contact-btn linkedin">
-              <span className="btn-icon">💼</span>
+            <a href="https://linkedin.com/in/potatomioo" className="contact-btn linkedin">
               LinkedIn
             </a>
-            <a href="https://github.com/deeptanshu" className="contact-btn github">
-              <span className="btn-icon">🔗</span>
+            <a href="https://github.com/potatomioo" className="contact-btn github">
               GitHub
             </a>
           </div>

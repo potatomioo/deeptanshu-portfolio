@@ -10,8 +10,11 @@ const Hero = () => {
             that millions of users love
           </p>
           <div className="hero-cta">
-            <a href="#contact" className="btn-primary">Let's Connect</a>
+            <a href="#contact" className="btn-hire-me">
+              Hire Me
+            </a>
             <a href="#projects" className="btn-secondary">View Work</a>
+            <a href="#contact" className="btn-tertiary">Let's Connect</a>
           </div>
         </div>
         <div className="hero-visual">
