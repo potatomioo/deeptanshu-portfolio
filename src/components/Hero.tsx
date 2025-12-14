@@ -3,18 +3,22 @@ const Hero = () => {
     <section id="hero" className="hero-section">
       <div className="hero-content">
         <div className="hero-text">
-          <h1 className="hero-name">Deeptanshu Shukla</h1>
+          <h1 className="hero-name-animated">
+            <span className="name-first">DEEPTANSHU</span>
+            <span className="name-last">SHUKLA</span>
+          </h1>
           <h2 className="hero-title">Software Engineer | Product Builder</h2>
           <p className="hero-description">
             Building scalable mobile apps and immersive metaverse experiences 
             that millions of users love
           </p>
-          <div className="hero-cta">
-            <a href="#contact" className="btn-hire-me">
+          <div className="hero-cta-centered">
+            <a href="#contact" className="btn-glass-primary">
+              <span className="hire-icon">🚀</span>
               Hire Me
             </a>
-            <a href="#projects" className="btn-secondary">View Work</a>
-            <a href="#contact" className="btn-tertiary">Let's Connect</a>
+            <a href="#projects" className="btn-glass-secondary">View Work</a>
+            <a href="#contact" className="btn-glass-tertiary">Let's Connect</a>
           </div>
         </div>
         <div className="hero-visual">

@@ -6,7 +6,7 @@ const Experience = () => {
         <div className="experience-card">
           <div className="experience-header">
             <h3 className="role-title">Software Development Engineer – Mobile & Platform</h3>
-            <span className="company">EdTech Company</span>
+            <span className="company">PW (Physics Wallah)</span>
           </div>
           <div className="experience-content">
             <ul className="achievements">

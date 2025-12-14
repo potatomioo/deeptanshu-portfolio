@@ -7,10 +7,6 @@ const Projects = () => {
           <div className="project-card featured">
             <div className="project-header">
               <h3 className="project-title">Split App</h3>
-              <div className="project-links">
-                <a href="#" className="project-link">View Project</a>
-                <a href="#" className="project-link">GitHub</a>
-              </div>
             </div>
             <p className="project-description">
               A consumer-facing expense splitting app focused on clean UX and scalable architecture. 
@@ -28,15 +24,15 @@ const Projects = () => {
               <span className="tech-tag">Clean Architecture</span>
               <span className="tech-tag">MVVM</span>
             </div>
+            {/* <div className="project-links-hover">
+              <a href="#" className="project-link-hover">View Project</a>
+              <a href="#" className="project-link-hover">GitHub</a>
+            </div> */}
           </div>
 
           <div className="project-card">
             <div className="project-header">
               <h3 className="project-title">Metaverse VR Starter Kit</h3>
-              <div className="project-links">
-                <a href="#" className="project-link">View Project</a>
-                <a href="#" className="project-link">GitHub</a>
-              </div>
             </div>
             <p className="project-description">
               A comprehensive starter kit for building VR and metaverse experiences. Built using Unity 
@@ -54,14 +50,15 @@ const Projects = () => {
               <span className="tech-tag">VR</span>
               <span className="tech-tag">3D Graphics</span>
             </div>
+            {/* <div className="project-links-hover">
+              <a href="#" className="project-link-hover">View Project</a>
+              <a href="#" className="project-link-hover">GitHub</a>
+            </div> */}
           </div>
 
           <div className="project-card">
             <div className="project-header">
               <h3 className="project-title">Payment Flow System</h3>
-              <div className="project-links">
-                <a href="#" className="project-link">Case Study</a>
-              </div>
             </div>
             <p className="project-description">
               Enterprise-grade payment system handling millions of transactions. Features intelligent 
@@ -79,6 +76,9 @@ const Projects = () => {
               <span className="tech-tag">Kotlin</span>
               <span className="tech-tag">System Design</span>
             </div>
+            {/* <div className="project-links-hover">
+              <a href="#" className="project-link-hover">Case Study</a>
+            </div> */}
           </div>
         </div>
       </div>
