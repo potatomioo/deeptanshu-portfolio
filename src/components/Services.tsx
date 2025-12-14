@@ -1,4 +1,8 @@
-const Services = () => {
+interface ServicesProps {
+  onNavigateToHire?: () => void;
+}
+
+const Services = ({ onNavigateToHire }: ServicesProps) => {
   return (
     <section id="services" className="services-section">
       <div className="container">

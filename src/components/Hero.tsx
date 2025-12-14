@@ -1,4 +1,8 @@
-const Hero = () => {
+interface HeroProps {
+  onNavigateToHire?: () => void;
+}
+
+const Hero = ({ onNavigateToHire }: HeroProps) => {
   return (
     <section id="hero" className="hero-section">
       <div className="hero-content">
@@ -13,12 +17,11 @@ const Hero = () => {
             that millions of users love
           </p>
           <div className="hero-cta-centered">
-            <a href="#contact" className="btn-glass-primary">
-              <span className="hire-icon">🚀</span>
+            <button onClick={onNavigateToHire} className="btn-glass-primary">
               Hire Me
-            </a>
+            </button>
             <a href="#projects" className="btn-glass-secondary">View Work</a>
-            <a href="#contact" className="btn-glass-tertiary">Let's Connect</a>
+            <button onClick={onNavigateToHire} className="btn-glass-secondary">Let's Connect</button>
           </div>
         </div>
         <div className="hero-visual">
