@@ -21,7 +21,7 @@ const Hero = ({ onNavigateToHire }: HeroProps) => {
               Hire Me
             </button>
             <a href="#projects" className="btn-glass-secondary">View Work</a>
-            <button onClick={onNavigateToHire} className="btn-glass-secondary">Let's Connect</button>
+            <button onClick={onNavigateToHire} className="btn-glass-primary">Let's Connect</button>
           </div>
         </div>
         <div className="hero-visual">
