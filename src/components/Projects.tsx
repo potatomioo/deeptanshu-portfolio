@@ -4,7 +4,7 @@ const Projects = () => {
       <div className="container">
         <h2 className="section-title">Featured Projects</h2>
         <div className="projects-grid">
-          <div className="project-card featured">
+          <div className="project-card">
             <div className="project-header">
               <h3 className="project-title">Split App</h3>
             </div>
