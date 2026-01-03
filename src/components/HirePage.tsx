@@ -20,24 +20,33 @@ const HirePage = ({ onNavigateHome }: HirePageProps) => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Create mailto link with form data
-    const subject = encodeURIComponent(`Project Inquiry from ${formData.name}`);
-    const body = encodeURIComponent(`
-Name: ${formData.name}
-Email: ${formData.email}
-
-Project Details:
-${formData.projectDetails}
-
-Message:
-${formData.message}
-    `);
-    
-    const mailtoLink = `mailto:deeptanshu@example.com?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink;
+  
+    try {
+      const res = await fetch("http://localhost:8080/send-mail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (!res.ok) {
+        throw new Error("Failed to send message");
+      }
+  
+      alert("Message sent successfully 🚀");
+      setFormData({
+        name: '',
+        email: '',
+        projectDetails: '',
+        message: ''
+      });
+    } catch (err) {
+      alert("Something went wrong 😢");
+      console.error(err);
+    }
   };
 
   return (

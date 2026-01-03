@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <p className="footer-text">
-            © 2025 Deeptanshu Shukla. Crafted with passion.
+            ©Deeptanshu Shukla. Crafted with passion.
           </p>
         </div>
       </div>
